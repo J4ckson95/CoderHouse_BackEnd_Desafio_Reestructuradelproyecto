@@ -1,0 +1,10 @@
+<div>
+    <h2>Productos</h2>
+    {{#each payload}}
+    <div>
+        <h4>{{this.title}}</h4>
+        <p>{{this.description}}</p>
+        <h5>{{this.price}}</h5>
+    </div>
+    {{/each}}
+</div>
